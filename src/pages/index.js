@@ -3,10 +3,11 @@ import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
-import InfoSection from "../components/InfoSection";
+import { InfoSection } from "../components/InfoSection";
 import { homeObjTwo } from "../components/InfoSection/Data";
 import { Maandalizi, Aina, Matunzo } from "../components/Services";
-import Aboutus from "../components/About";
+import AboutUs from "../components/About";
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -21,7 +22,8 @@ const Home = () => {
       <Aina />
       <Maandalizi />
       <Matunzo />
-      <Aboutus />
+      <AboutUs />
+
       <Footer />
     </>
   );

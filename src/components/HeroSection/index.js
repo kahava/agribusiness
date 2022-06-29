@@ -5,17 +5,13 @@ import {
   HeroBg,
   HeroP,
   HeroH1,
-  HeroBtnWrapper,
   HeroContent,
-  ArrowForward,
-  ArrowRight,
 } from "./HeroElements";
-import { Button } from "../Button/ButtonElements";
 const HeroSection = () => {
-  const [hover, setHover] = useState(false);
-  const onHover = () => {
-    setHover(!hover);
-  };
+  // const [hover, setHover] = useState(false);
+  // const onHover = () => {
+  //   setHover(!hover);
+  // };
   return (
     <HeroContainer>
       <HeroBg></HeroBg>
@@ -24,8 +20,7 @@ const HeroSection = () => {
         <h2 style={{ color: "#fff" }}>na Kilimo biashara</h2>
         <HeroP>
           Nufaika kwa kuwekeza katika kilimo cha parachichi uwe mmoja kati ya
-          watanzania Zaidi ya 10,000 wanaojihusisha na kilimo biashara cha
-          parachichi
+          watanzania wanaojihusisha na kilimo biashara cha parachichi.
         </HeroP>
         {/* <HeroBtnWrapper>
           <Button

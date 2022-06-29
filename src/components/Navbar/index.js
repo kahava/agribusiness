@@ -26,13 +26,13 @@ const Navbar = ({ toggle }) => {
               <NavLinks to="utangulizi">Utangulizi</NavLinks>
             </Navitem>
             <Navitem>
-              <NavLinks to="aina">Aina</NavLinks>
+              <NavLinks to="aina">Aina Bora </NavLinks>
             </Navitem>
             <Navitem>
               <NavLinks to="matunzo">Matunzo</NavLinks>
             </Navitem>
             <Navitem>
-              <NavLinks to="kuhusu">Kuhusu sisi</NavLinks>
+              <NavLinks to="kuhusu sisi">Kuhusu sisi</NavLinks>
             </Navitem>
           </NavMenu>
           {/* <NavBtn>

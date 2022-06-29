@@ -28,9 +28,9 @@ import IfundaDom from "../../images/ifundaDom.jpg";
 const AboutUs = () => {
   return (
     <AboutContainer id="kuhusu sisi">
-      <AboutHeading>kuhusu sisi</AboutHeading>
       <AboutWrapper>
         <TopDetails>
+          <AboutHeading>kuhusu sisi</AboutHeading>
           <DetailP>
             Shule ya Sekondari ya Ufundi Ifuda ilianzishwa mwaka 1964 Rasmi kama
             shule ya kutoa mafunzo ya ufundi.
@@ -87,7 +87,7 @@ const AboutUs = () => {
           <MkopaP>
             Nafurahi kuona wanafuzi wa nchini kwetu wakiwa kipaumbele kuifanya
             Tanzania kuwa ya viwanda. Naamini zao la parachichi litasaidia
-            maedeleo ya viwanda Tanzania.
+            maedeleo ya viwanda Tanzania
           </MkopaP>
         </AboutMkopa>
         <AboutIsaya>
@@ -97,7 +97,7 @@ const AboutUs = () => {
           <IsayaP>
             Napenda kujihusisha na sayansi na maendeleo ya kiteknolojia katika
             ubunifu. Naamini kuwa Tanzania tunaenda kunufaika sana kupitia
-            kilimo cha parachichi.
+            kilimo cha parachichi
           </IsayaP>
         </AboutIsaya>
       </AboutWrapper>

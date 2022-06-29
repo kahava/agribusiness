@@ -7,6 +7,7 @@ import {
   ServicesH2,
   ServicesP,
   ServicesWrapper,
+  DescriptionWrap,
 } from "./ServicesElements";
 import Hass from "../../images/hassCado.jfif";
 import Fuerte from "../../images/fuerte.jpg";
@@ -25,21 +26,24 @@ export const Aina = () => {
   return (
     <ServicesContainer id="aina">
       <ServicesH1>Aina bora za parachichi</ServicesH1>
-      <ServicesH2>
-        Kuna aina mbili za parachicihi: kisasa na kienyeji. Parachichi la kisasa
-        huwa na miti midogo na matunda mengi zaidi na linawahi kutoa matunda
-      </ServicesH2>
-      <ServicesP>
-        Aina za kisasa za parachichi zilizofanyiwa utafiti na kukubalika kwa
-        aajili ya wakulima na walaji ni pamoja na hizi
-      </ServicesP>
+      <DescriptionWrap>
+        <ServicesH2>
+          Zao La parachichi linaweza kutumika kama chakula cha nyumbani.
+          Pachichi linaweza kutumika kutengenezea bidhaa mbalimbali kama vile
+          mafuta ,sabuni,blueband,siagi, na vipodozi mbalimbali.
+        </ServicesH2>
+        <ServicesH2>
+          Aina za parachichi zilizofanyiwa utafiti na kukubalika kwaajili ya
+          wakulima na walaji ni pamoja na hizi.
+        </ServicesH2>
+      </DescriptionWrap>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Hass} />
           <ServicesH2>Hass</ServicesH2>
           <ServicesP>
             Hii ni aina maarufu sana katika aina za parachichi Ni tunda
-            linalokuwa na vipere vipere Linahifadhika kwa urahisi sana
+            linalokuwa na vipere vipere Linahifadhika kwa urahisi sana.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -73,17 +77,19 @@ export const Aina = () => {
 export const Maandalizi = () => {
   return (
     <ServicesContainer id="maandalizi">
-      <ServicesH1>Maandalizi ya shamba na upandaji miche</ServicesH1>
-      <ServicesH2>
-        Unapofikilia kulima parachichi unahitaji kuwa na Ardhi, miche, mbolea,
-        madawa, na wafanyakazi kwa wakati mwingine. Nunua miche kwa wauzaji
-        walioidhinishwa kwa kuzalisha miche bora inayo kidhi viwango.
-      </ServicesH2>
-      <ServicesP>
-        Andaa shamba kwa kulisafisha vizuri kabisa na kisha kulima. Baada ya
-        kulima itahitajika kupiga haro ili kulainisha udongo na kuchanganya
-        rutuba asili iliyopo kwenye shamba.
-      </ServicesP>
+      <DescriptionWrap>
+        <ServicesH1>Maandalizi ya shamba na upandaji miche</ServicesH1>
+        <ServicesH2>
+          Unapofikilia kulima parachichi unahitaji kuwa na Ardhi, miche, mbolea,
+          madawa, na wafanyakazi kwa wakati mwingine. Nunua miche kwa wauzaji
+          walioidhinishwa kwa kuzalisha miche bora inayo kidhi viwango.
+        </ServicesH2>
+        <ServicesH2>
+          Andaa shamba kwa kulisafisha vizuri kabisa na kisha kulima. Baada ya
+          kulima itahitajika kupiga haro ili kulainisha udongo na kuchanganya
+          rutuba asili iliyopo kwenye shamba.
+        </ServicesH2>
+      </DescriptionWrap>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Shimo} />
@@ -106,9 +112,8 @@ export const Maandalizi = () => {
           <ServicesIcon src={TafutaMiche} />
           <ServicesH2>Tafuta miche</ServicesH2>
           <ServicesP>
-            Hapa inahitajika kufanua uamuzi wa aina ya mbegu unayohitaji
-            kupanda. Tunapendekeza kupanda aina ya Hass kwakuwa ni mbegu
-            iliyothibitishwa kufanya vizuri katika soko la ndani na kimataifa.
+            Tunapendekeza kupanda aina ya Hass kwakuwa ni mbegu iliyothibitishwa
+            kufanya vizuri katika soko la ndani na kimataifa.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -127,15 +132,17 @@ export const Maandalizi = () => {
 export const Matunzo = () => {
   return (
     <ServicesContainer id="matunzo">
-      <ServicesH1>Matunzo</ServicesH1>
-      <ServicesH2>
-        Mimea yako kustawi vizuri inahita maji, virutibisho, palizi, na kinga
-        kwa wadudu na magonjwa.
-      </ServicesH2>
-      <ServicesP>
-        unapozingatia matunzo inakuwezesha kupata mavuno mengi na yenye kiwango
-        kinachokubalika
-      </ServicesP>
+      <DescriptionWrap>
+        <ServicesH1>Matunzo</ServicesH1>
+        <ServicesH2>
+          Mimea yako kustawi vizuri inahita maji, virutibisho, palizi, na kinga
+          kwa wadudu na magonjwa.
+        </ServicesH2>
+        <ServicesH2>
+          unapozingatia matunzo inakuwezesha kupata mavuno mengi na yenye
+          kiwango kinachokubalika.
+        </ServicesH2>
+      </DescriptionWrap>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Mwagilia} />
@@ -143,27 +150,26 @@ export const Matunzo = () => {
           <ServicesP>
             Mmea unahitaji maji, hivyo katika kipindi cha jua utahitaji
             kumwagilia ili ustawi kwa ubora. Unaweza ukaweka mfumo wa kumwagilia
-            kwa matone au ukawa unamwagilia angalau lita 10 baada ya siku 3
+            kwa matone au ukawa unamwagilia angalau lita 10 baada ya siku 3.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Mbolea} />
           <ServicesH2>Mbolea</ServicesH2>
           <ServicesP>
-            utahitaji mbolea aina ya NPK au Yara Mira winner kwaajili ya
+            utahitaji mbolea aina ya NPK au Yara Mila winner kwaajili ya
             kuupatia mmea virutubisho kupiti mizizi. Pia utahitaji busta kwa
-            kuupatia mmea virutubisho kwa njia ya majani
+            kuupatia mmea virutubisho kwa njia ya majani.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Palizi} />
           <ServicesH2>Palizi</ServicesH2>
           <ServicesP>
-            Inahitajika kuondoa magugu na kupogolea kuhakilisha mmea unastawi
-            vizuri na hausumbuliwi na magugu. Mche unapofikisha takribani umri
-            wa mwaka mmoja na nusu utaaza kutoa maua. inashauriwa kuyaondoa maua
-            hayo ya kwanza kuepusha kudumaza mti kwakuwa mti unakuwa bado hauna
-            nguvu ya kubeba matunda
+            Inahitajika kuondoa magugu mmea unastawi vizuri. Mche unapofikisha
+            takribani umri wa mwaka mmoja na nusu utaaza kutoa maua. inashauriwa
+            kuyaondoa maua hayo ya kwanza kuepusha kudumaza mti kwakuwa mti
+            unakuwa bado hauna nguvu ya kubeba matunda.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
@@ -173,7 +179,7 @@ export const Matunzo = () => {
             Kuzuia wadudu sumbufu katika miti ya parachichi unahitaji kutumia
             dawa za wadudu mwanzoni mwa msimu wa mvua, katikati na mwishoni mwa
             msimu wa mvua. Pia kwa maeneo yenye ukungu unahitaji kutumia dawa za
-            kuzuia fangasi
+            kuzuia fangasi.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>

@@ -24,13 +24,14 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: true,
-  topLine: "ZAO LA PARACHICHI",
+  topLine: "Utangulizi",
   headLine:
-    "Parachichi ni moja ya tunda ambalo liko katika kundi la mmea wenye ghala mbili, tunda lake hulizunguka peke linalokuwa ndani.",
+    "Parachichi ni mojawapo ya matunda ambayo yanahitajika kwa wingi ndani na nje ya nchi kwa matumizi yake mbalimbali.",
   description:
     "Mmea wa parachichi unastawi zaidi maeneo yenye baridi kwa nyuzi joto 15-25 katika mwinuko wa mita 1200-1800 kutoka usawa wa bahari. Parachichi linastawi zaidi katika udongo tifutifu wa kichanga usiotuamisha maji. Maeneo hayo ni kama vile njombe, iringa, mbeya, morogoro, tanga na kilimanjaro.",
 
-  buttonLabel: "Get Started",
+  buttonLabel:
+    "Takwimu zinaonyesha Zaidi ya tani 10,000 husafirishwa nchini kwenda  India. Hii inaashiria kuwa kuna uhitaji mkubwa wa tunda parachichi",
   imgStart: false,
 
   alt: "Parachichi",
